@@ -1,0 +1,18 @@
+
+/* ============================================= */
+/*                      Mixins                   */
+/* ============================================= */
+
+
+@mixin mq($break) {
+    @if $break == "small" {
+        @media (min-width: $break-small) {
+            @content;
+        }
+    }
+    @else if $break == "medium" {
+        @media (min-width: $break-medium) {
+            @content; 
+        }
+    }
+}

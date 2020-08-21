@@ -9,22 +9,5 @@ $color-info: #927bc1;
 $color-success: #63cc82;
 $color-warning: #fd7856;
 
-.default {
-    background-color: $color-default;
-  }
-  
-  .error {
-    background-color: $color-error;
-  }
-  
-  .info {
-    background-color: $color-info;
-  }
-  
-  .success {
-    background-color: $color-success;
-  }
-  
-  .warning {
-    background-color: $color-warning;
-  }
+$break-small  : 786px;
+$break-medium  : 1024px;
